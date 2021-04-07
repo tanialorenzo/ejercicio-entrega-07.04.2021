@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    position: relative;
+    z-index: 0;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: arial;
+    color: white;
+    margin-left: 10px;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+}
+.logo img{
+    width: 100%;   
+}
+.micro{
+    height: 100%;
+}
+.micro img{
+    height: 100%;
+}
+.texto{
+        position: absolute;
+        color: white;
+        z-index: 10;
+        top: 250px;
+        background-color: rgba(0, 0, 0, 0.808);
+        padding: 10px 20px;
+        border-radius: 20px 5px 20px 5px;
+        font-size: 1.5em;
+}
+.texto2{
+    color: white;
+    top: 400px;
+    position: absolute;
+    z-index: 11;
+    font-size: 1.4em;
+    background-color: #ff4756d0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#conciertos{
+    background-color: rgba(0, 0, 0, 0.911);
+}
+h2{
+    color: white;
+    font-size: 2em;
+    font-family: arial;
+    padding-top: 40px;
+}
